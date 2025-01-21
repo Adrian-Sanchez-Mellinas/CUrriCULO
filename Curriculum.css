@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding-top: 20px;
+    text-align: center;
+    background-image: url(/imgs/old_map.png);
+}
+
+#page{
+    width: 960px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+h1{
+    background-image: url(/imgs/avatar.jpg);
+    background-repeat: no-repeat;
+    background-position: 25px center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1.1em;
+    border-bottom: solid 6px black;
+    background-color: #313B44;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 1.4em;
+    color: silver;
+    text-align: center ;
+    background-image: url(/imgs/red015.jpg);
+}
+
+li{
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style:none;
+    text-align: center;
+    cursor: default;
+    display: inline-block;
+}
+
+#estudios{
+    background-image: url(/imgs/estudios.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+#conocimientos{
+    background-image: url(/imgs/conocimientos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+#contacto{
+    background-image: url(/imgs/contacto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.clearfix::before,
+.clearfix::after,
+section
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    background-image: url(/imgs/lgrey008.jpg);
+    width:100%;
+    display: table; 
+}
+
+footer {
+    background-color: #313B44;
+    color: white; 
+    font-size: 0.7em;
+    text-align: center; 
+    border-top: 6px solid black; 
+    padding-top: 15px;
+    padding-bottom: 15px; 
+  }
+
+article{
+    width: 240px;
+    border: solid  lightgray;
+    text-align: center;
+    background-color: white;
+    line-height: 1.8em;
+    padding-bottom: 22px;
+    padding-right: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin: 30px;
+    float: left;
+    
+}
+
+article header{
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+
+h2{
+    padding: 10px;
+    font-size: 1.2em;
+    color: red;
+}
